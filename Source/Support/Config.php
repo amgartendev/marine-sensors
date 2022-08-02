@@ -20,4 +20,4 @@ define("CONF_PASSWD_OPTION", ["cost" => 10]);
 /**
  *  URL
  */
-define("URL_HOME", "http://localhost/Sensores/map.html");
+define("URL_MAP", "http://localhost/Sensores/map.html");

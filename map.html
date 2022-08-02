@@ -1,17 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="_cdn/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
     <title>Mapa Sensores</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            overflow-y: hidden;
+        }
+        #mapid {
+            height: 1000px;
+            width: 100%;
+         }
+    </style>
 </head>
 <body>
-    <main>
-        <div class="container-map">
-            <iframe src="https://www.google.com.qa/maps/d/u/0/embed?mid=1uvH0DdEIC8BD9LLxnK4EaR7aN05gLOE&ehbc=2E312F" width="100%" height="100%"></iframe>
-        </div>
-    </main>
+    <div id="mapid"></div>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -48,7 +48,7 @@ class Login
 
         // Checking if user exists in the DataBase, if true, redirect user to the Home Page
         if($row == 1) {
-            header("Location: " . URL_HOME);
+            header("Location: " . URL_MAP);
             exit();
             return true;
         } else {

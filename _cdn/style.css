@@ -2,10 +2,10 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    overflow-y: hidden;
 }
 
-.container-map {
+#map { 
+    height: 180px; 
     width: 50%;
-    height: 770px;
-    display: inline-block;
 }
