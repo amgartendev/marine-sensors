@@ -11,7 +11,7 @@
 
 <body>
 
-    <img src="images/background_lisbon.png" alt="background" width="100%" />
+    <img src="images/wallpaper.webp" alt="background" width="100%" />
 
     <div class="tela-login">
         <form method="POST" enctype="multipart/form-data">
